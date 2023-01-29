@@ -1,0 +1,322 @@
+*{margin:0;
+    padding: 0;
+    text-decoration: none;
+    text-align: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header
+{
+    display: flex;
+    opacity: 100%;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-around;
+    align-items:center;
+    background-image: url(imageAccueil.jpg);
+    
+}
+nav,li,ul
+{
+    
+    display: flex;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding:0 20px;
+    color: white;
+    
+}
+.logo
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 0 30px;
+    color: white;
+    font-weight: bold;
+    
+}
+.T,#N{ color: rgb(174, 84, 0);font-size: 1.2em;}
+a{
+    
+    color: white;
+}
+a:hover
+{
+    color:rgb(174, 84, 0);
+    border-bottom: 2px solid rgb(174, 84, 0);
+    font-weight: bold;
+}
+.itemselement
+{
+    background-image: url(imageAccueil.jpg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+   
+    
+}
+#plat
+{ 
+   
+    position: relative;
+    width: 50%;
+    height: 20cm;
+    color: white;
+    text-align: center;
+    margin-top: 23vh;
+}
+button
+{
+    text-decoration: none;
+    font-size: 3.1em;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(218, 99, 20);
+    border: 0;
+    width:40vh;
+    height: 65px;
+    text-align: center;
+    cursor: pointer;
+    margin-top:20px;
+
+}
+button:hover{
+    color: black;
+    font-weight: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1
+{
+    margin-bottom:20px;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+#imga1
+{
+    width:420px ;
+    height:370px ;
+    border-radius: 25px;
+}
+.Nous
+{
+    
+    width: 50%;
+    height: 35vh;
+   
+    text-align: justify;
+    font-size: 1em;
+}
+
+h2
+{font-size: 3.3em;
+text-align: center;
+margin-bottom: 15px;}
+.sect1
+{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#A{color: rgb(218, 99, 20); font-weight: bold; font-size: 1.5em;}
+
+
+header
+{
+    position: sticky;
+    top: 0;
+    -webkit-position:sticky;
+}
+
+.menu
+{
+    width: 80%;
+    height: 120vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    align-items: center;
+}
+
+#m4,#m5,#m6,#m1,#m3,#m2
+{
+    width:300px ;
+    height:330px ;
+    border-radius: 25px;
+    margin: 15px;
+}
+.poulet,.viande,.samoussa,.poisson,.entres,.brochete
+{
+   
+    
+    background-color: rgba(198, 88, 15, 0.862);
+    border-radius: 20px;
+}
+h4
+{
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.75em;
+    margin-top: -15px;
+    color: white;
+}
+.Gmenu
+{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+}
+h3{
+    text-align: center;
+    font-size: 3.6em;
+
+}
+#h3{color:rgb(218, 99, 20);}
+#p1{text-align: center;}
+.Gtem
+{
+    display: flex;
+    width: 100%;
+    height: 120vh;
+    background-image: url(imageAccueil.jpg);
+    background-size: cover;
+   
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+    align-items: center;
+    
+}
+.temoignage
+{
+    
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content:space-around;
+    
+}
+#diguina{
+    height: 55vh;
+    width: 40vh;
+    
+    background-color: rgb(255, 255, 255);
+    font-family:cursive;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 30px;
+}
+#dj
+{
+    width: 100px;
+    height: 105px;
+    border-radius: 70%;
+
+}
+#t
+{
+    width: 90vh;
+    height: 40vh;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+}
+#b{
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    margin-top: -40px;
+}
+#client
+{
+    background-color: rgb(218, 99, 20);
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    width: 70vh;
+    height: 9vh;
+    text-align: center;
+    padding-top: -11px;
+    margin-top: 40px;
+    font-size: 2.5em;
+}#d{
+    background-color: rgb(212, 101, 4);
+    color: white;
+    border-radius: 10px;
+    width: 25vh;
+    height: 5vh;
+    text-align: center;
+    padding-top: 7px;
+    text-align: center;
+   margin-left: 60px;
+}
+.contact
+{
+    width: 100%;
+    height: 120vh;
+    background-color: rgba(51, 50, 49, 0.332);
+    display: flex;
+    align-content: center;
+}
+#con
+{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+#me{
+background-color: white;
+width: 30%;
+height: 65%;
+text-align: center;
+margin-top: 20px;
+}
+input,#Env
+{
+    width: 70%;
+    height: 40px;
+}
+
+
+    
+textarea
+{
+    width: 70%;
+    height: 90px;
+}
+#Env{margin-top: 50px;}
+.pied
+{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+}
+#dd{
+    color:rgb(228, 142, 5);
+    font-family: bold;
+   
+}
+#a1{
+    text-decoration: none;
+    text-align: center;
+    color:blue;
+    border-bottom: 2px solid blue;
+    font-size: 1.3em;
+}
